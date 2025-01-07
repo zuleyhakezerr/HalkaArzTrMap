@@ -7,6 +7,7 @@ HalkaArzMap, halka arz verilerini görselleştiren ve analiz eden bir projedir. 
 - Halka arz verilerinin görselleştirilmesi
 - Verilerin analizi ve raporlanması
 - Kullanıcı dostu arayüz
+<img width="774" alt="Ekran Resmi 2025-01-07 19 51 00" src="https://github.com/user-attachments/assets/adf50fbd-e070-42f1-abe4-327628ea8485" />
 
 ## Kurulum
 
