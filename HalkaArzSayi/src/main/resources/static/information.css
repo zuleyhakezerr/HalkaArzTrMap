@@ -1,0 +1,53 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar-brand {
+    margin-right: 20px; /* "Halka Arz Türkiye Haritası" yazısının sağında boşluk bırak */
+}
+
+.navbar-button {
+    padding: 10px 15px;
+    background-color: #cdd7e2;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.navbar-button:hover {
+    background-color: #9ab4d1;
+    color: #fff;
+}
+
+.search-bar {
+    margin-left: auto; /* Arama çubuğunu sağa hizala */
+
+}
+/* Belirli boyutlarda bir div */
+
+.table-container {
+    width: 400px;
+    height: 400px;
+    overflow-y: scroll;
+    /* Sadece dikey kaydırma */
+    border: 1px solid #ccc;
+}
+/* Tablo stilleri (isteğe bağlı) */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}

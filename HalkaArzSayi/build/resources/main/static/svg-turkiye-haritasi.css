@@ -1,0 +1,83 @@
+/*! SVG Türkiye Haritası | CSS | MIT Lisans | dnomak.com */
+
+.svg-turkiye-haritasi {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+.svg-turkiye-haritasi svg {
+    width: 100%;
+    height: auto;
+}
+.il-isimleri {
+    position: absolute;
+    z-index: 2;
+}
+.il-isimleri div {
+    font-family: 'Open Sans';
+    display: inline-block;
+    background: #1094F6;
+    color: #fff;
+    padding: 8px 16px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+#svg-turkiye-haritasi path {
+    cursor: pointer;
+    fill: #222;
+}
+#svg-turkiye-haritasi path:hover {
+    fill: #1094F6;
+}
+#guney-kibris {
+    pointer-events: none;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+}
+.navbar-brand {
+    font-size: 24px;
+}
+.search-bar {
+    display: flex;
+}
+.search-bar input[type="search"] {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* Sol Panel Stilleri */
+.sidebar {
+    width: 30%; /* Panel genişliği */
+    float: left; /* Sol tarafa hizalama */
+
+
+}
+
+/* Harita Stilleri */
+.map-container {
+    margin-left: 30%; /* Sol panelin genişliğine uygun bir boşluk bırakın */
+}
+
+/* Şehir Bilgileri Stilini Genişletme */
+#city-info {
+    font-size: 1.2em; /* Yazı boyutunu büyütme */
+    margin-top: 20px; /* Üstten boşluk ekleme */
+}
